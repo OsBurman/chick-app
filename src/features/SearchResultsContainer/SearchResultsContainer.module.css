@@ -1,0 +1,11 @@
+.searchResultsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  .searchResultsContainer {
+    max-width: 547px;
+  }
+}

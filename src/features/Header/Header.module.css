@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 24px; 
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  cursor: pointer;
+}
