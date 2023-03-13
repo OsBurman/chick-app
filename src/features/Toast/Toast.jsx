@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeToast } from '../../app/configureStore/reducers';
+import { removeToast } from '../../app/configureStore/actions';
 import css from './Toast.module.css';
 
 export const Toast = () => {

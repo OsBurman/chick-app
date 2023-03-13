@@ -1,42 +1,8 @@
-/************************
- * 
- * State
- *  
- * **********************/
+import { SHOW_LOADER } from '../actions';
 
 const initialState = {
   show: false,
 }
-
-
-/************************
- * 
- * Actions
- *  
- * **********************/
-
-const SHOW_LOADER = 'SHOW_LOADER';
-
-
-/************************
- * 
- * Action Creators
- *  
- * **********************/
-
-export const showLoader = (payload) => {
-  return ({
-    type: SHOW_LOADER,
-    payload,
-  })
-}
-
-
-/************************
- * 
- * Reducer
- *  
- * **********************/
 
 export function loaderReducer(state = initialState, action) {
   const { payload } = action;

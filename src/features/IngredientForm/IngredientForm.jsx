@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Button, Input } from '../';
-import { getNutritionInfo, getRecipeInfo } from '../../app/configureStore/middleware';
-import { showLoader } from '../../app/configureStore/reducers';
+import { getNutritionInfo, getRecipeInfo } from '../../app/configureStore/thunkMiddleware';
+import { showLoader } from '../../app/configureStore/actions';
 
 export const IngredientForm = () => {
   const dispatch = useDispatch();

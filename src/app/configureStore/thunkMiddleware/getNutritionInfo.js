@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { saveSearchTypeAndResults, showLoader, showToast } from "../reducers";
+import { saveSearchTypeAndResults, showLoader, showToast } from "../actions";
 
 const calorieNinjasApiKey = "+s27KaD9wWKFWEwKb9ftAQ==XqudOuNZQdLY2ck7";
 

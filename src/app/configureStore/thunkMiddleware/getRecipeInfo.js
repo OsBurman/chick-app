@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { saveSearchTypeAndResults, showLoader, showToast } from "../reducers";
+import { saveSearchTypeAndResults, showLoader, showToast } from "../actions";
 
 const formatRecipeInput = (input) => {
   return input.replaceAll(" and", ",").replaceAll(" ", "%20");
